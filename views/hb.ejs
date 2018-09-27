@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" type="text/html; charset=UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href='/stylesheets/style.css'>
+</head>
+
+<body>
+    <h1><%= title %></h1>
+    <form method="POST" action="/hb/post">
+        <input type="text" name="prediction">
+        <input type="submit" value="SEND">
+    </form>
+</body>
+</html>
